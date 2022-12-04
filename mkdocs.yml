@@ -1,7 +1,6 @@
 site_name: Sus Po Fizike
 nav:
-  - Главная: index.md
-  - Устная часть: oral.md
+  - Устная часть: index.md
   - Задачи: tasks.md
 theme:
   name: material

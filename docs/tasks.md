@@ -409,7 +409,7 @@ $\frac{l}{g} = \frac{t^2}{4N^2\pi^2}$
 
 $g = \frac{4lN^2\pi^2}{t^2}$
 
-$g = \frac{0.8см * 100^2 * 4 * 3.14^2}{180с^2} = 9.74\frac{м}{с^2}$
+$g = \frac{0.8м * 100^2 * 4 * 3.14^2}{180с^2} = 9.74\frac{м}{с^2}$
 
 Ответ: $9.74\frac{м}{с^2}$.
 
@@ -555,7 +555,7 @@ $W_{м2} = 3.6Дж - 2Дж = 1.6Дж$
 
 $l = 0.25м$
 
-$B = 8мТл = 8 * 10^{-3}$
+$B = 8мТл = 8 * 10^{-3}$Тл
 
 $v = 5\frac{м}{с}$
 
@@ -569,7 +569,7 @@ $\xi _i$
 
 !!! note ""
 
-    $\xi = Blv\sin{\alpha}$
+    $\xi_i = Blv\sin{\alpha}$
 
 $\xi _i = 8 * 10^{-3} * 0.25м * 5\frac{м}{с} * \sin{30^\circ} = 5 * 10^{-3}В$
 
@@ -674,7 +674,7 @@ $T$
 
     $T = \frac{1}{\nu}$
 
-    $v = \omega R = \frac{qBR}{m}$ (15)
+    $v = \omega R = \frac{qBR}{m}$
 
 $\omega = \frac{v}{R} = \frac{\frac{qBR}{m}}{R} = \frac{qBR}{mR} = \frac{qB}{m}$
 
@@ -879,9 +879,9 @@ $t$
 
     $s = \pi r^2$
 
-$t = \frac{QR}{U^2} = \frac{QR}{(S|\frac{\Delta B}{\Delta t}|(sin{\alpha})^2)} = \frac{QR}{(\pi r^2|\frac{\Delta B}{\Delta t}|sin{\alpha})^2}$
+$t = \frac{QR}{U^2} = \frac{QR}{(S|\frac{\Delta B}{\Delta t}|(sin{\alpha}))^2} = \frac{QR}{(\pi r^2|\frac{\Delta B}{\Delta t}|sin{\alpha})^2}$
 
-$t = \frac{555 * 10^{-6}Дж * 0.01Ом}{(3.14 * (0.1м)^2| * 0.05\frac{Тл}{с}| * sin{60^\circ})^2} = 3с$
+$t = \frac{555 * 10^{-6}Дж * 0.01Ом}{(3.14 * (0.1м)^2 * |0.05\frac{Тл}{с}| * sin{60^\circ})^2} = 3с$
 
 Ответ: $3с$.
 

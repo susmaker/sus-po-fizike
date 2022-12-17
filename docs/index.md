@@ -78,7 +78,7 @@ $AB \parallel A_1B_1 \Rightarrow (\angle BAC = \angle B_1A_1C)$
 
 $(A_1 \in AC) \And (B_1 \in BC) \Rightarrow \angle ACB = \angle A_1CB_1$
 
-$(\angle BAC = \angle B_1A_1C) \And (\angle ABC = \angle A_1B_1C) \And (\angle ACB = \angle A_1CB_1) \Rightarrow \triangle{ABC} \sim \triangle{A_1B_1C}$
+$\triangle{ABC} \sim \triangle{A_1B_1C}$ (по 3-ём углам)
 
 $\triangle{ABC} \sim \triangle{A_1B_1C} \Rightarrow \frac{AB}{A_1B_1} = \frac{BC}{B_1C}$
 

@@ -1283,7 +1283,7 @@ S = l(NC - vt)
 </div>
 <p><strong>Нахождения направления индукционного тока в контуре</strong>:</p>
 <ol>
-<li>определить направление линий магнитной индукции <span class="arithmatex">\(\vec{B}\)</span> внешнего магнитного поля (см. билет 2);</li>
+<li>определить направление линий магнитной индукции <span class="arithmatex">\(\vec{B}\)</span> внешнего магнитного поля;</li>
 <li>выяснить, увеличивается ли поток вектора магнитной индукции этого поля через поверхность, ограниченную контуром (<span class="arithmatex">\(\Delta\Phi &gt; 0\)</span>), или уменьшается (<span class="arithmatex">\(\Delta\Phi &lt; 0\)</span>);</li>
 <li>установить направление линий магнитного индукции <span class="arithmatex">\(\vec{B}'\)</span> магнитного поля индукционного тока. Эти линии должны быть согласно правилу Ленца направлены противоположно линиям магнитной индукции <span class="arithmatex">\(\vec{B}\)</span> при <span class="arithmatex">\(\Delta\Phi &gt; 0\)</span> и иметь одинаковое с ними направление при <span class="arithmatex">\(\Delta\Phi &lt; 0\)</span>;</li>
 <li>зная направление линий магнитной индукции <span class="arithmatex">\(\vec{В}'\)</span>, найти направление индукционного тока, пользуясь правилом буравчика.</li>
@@ -1339,7 +1339,7 @@ I_i \sim \frac{ \Delta \Phi }{ \Delta t }
 </tbody>
 </table>
 <div class="arithmatex">\[
-I_i = \frac{ \Delta \Phi }{ R }
+I_i = \frac{ \Delta \xi _i }{ R }
 \]</div>
 <table>
 <thead>
@@ -1369,7 +1369,7 @@ I_i = \frac{ \Delta \Phi }{ R }
 <div class="admonition info">
 <p class="admonition-title">Закон электромагнитной индукции</p>
 <div class="arithmatex">\[
-\xi _i = |\frac{ \Delta \Phi }{ \Delta t }|
+\xi _i = - \frac{ \Delta \Phi }{ \Delta t }
 \]</div>
 <table>
 <thead>
@@ -1393,7 +1393,42 @@ I_i = \frac{ \Delta \Phi }{ R }
 </tr>
 </tbody>
 </table>
+<div class="arithmatex">\[
+\xi _i = - N \frac{ \Delta \Phi }{ \Delta t }
+\]</div>
+<table>
+<thead>
+<tr>
+<th>Обозначение</th>
+<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="arithmatex">\(\xi _i\)</span></td>
+<td>ЭДС индукции</td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(N\)</span></td>
+<td>количество витков катушки</td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(\Delta \Phi\)</span></td>
+<td>изменение магнитного потока</td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(\Delta t\)</span></td>
+<td>время изменения</td>
+</tr>
+</tbody>
+</table>
 </div>
+<div class="admonition info">
+<p class="admonition-title">В движим</p>
+</div>
+<div class="arithmatex">\[
+\xi _i = - \frac{ \Delta \Phi }{ \Delta t } = - \frac{ B l v \Delta t \cos{\alpha} }{ \Delta t } = - B l v \cos{\alpha}
+\]</div>
 <p><strong>Токи Фуко</strong> или <strong>вихревые токи</strong> - обладающие индукционной природой токи, которые возникают в массивных проводниках, находящихся в переменном магнитном поле.</p>
 <p>На этом принципе основано устройство индукционных печей, например используемых в быту СВЧ-печей. Также этот принцип используется для плавки металлов. Кроме этого, явление электромагнитной индукции используется в детекторах металла (на входах в здания).</p>
 <p><strong>Ферриты</strong> - химические соединения, магнитные изоляторы, полупроводники и диэлектрики, в которых не возникают вихревые токи при перемагничивании.</p>
@@ -1423,7 +1458,7 @@ I_i = \frac{ \Delta \Phi }{ R }
 </details>
 <h2 id="9">9. Явление самоиндукции. Индуктивность.</h2>
 <p><strong>Электродвижущая сила (ЭДС)</strong> (<span class="arithmatex">\(\xi\)</span>) - скалярная физическая величина, характеризующая работу сторонних сил.</p>
-<p><strong>Самоиндукция</strong> - явление возникновения ЭДС индукции в самом проводнике, по которому идёт переменный ток. Эта ЭДС называется ЭДС самоиндукции <span class="arithmatex">\(\xi _{si}\)</span>.</p>
+<p><strong>Самоиндукция</strong> - явление возникновения ЭДС индукции в самом проводнике, по которому идёт переменный ток. Эта ЭДС называется ЭДС самоиндукции (<span class="arithmatex">\(\xi _{si}\)</span>).</p>
 <div class="admonition info">
 <p class="admonition-title">ЭДС самоиндукции</p>
 <div class="arithmatex">\[
@@ -1527,7 +1562,7 @@ W_м = \frac{ L I^2 }{2}
 <h2 id="10">10. Механические колебания. Виды колебаний.</h2>
 <p><strong>Колебания</strong> - движения или процессы, обладающие свойством повторяемости во времени.</p>
 <p><strong>Механические колебания</strong> - это движения, которые точно или приблизительно повторяются через определённые интервалы времени.</p>
-<p><strong>Внутренние силы</strong> - действующие между телами системы.</p>
+<p><strong>Внутренние силы</strong> - силы, действующие между телами системы.</p>
 <p><strong>Внешние силы</strong> - силы, действующие на тела системы со стороны тел не входящих в неё.</p>
 <p><strong>Система</strong> - группа взаимодействующих тел.</p>
 <p><strong>Виды колебаний</strong>:</p>
@@ -1720,8 +1755,8 @@ C = \frac{q}{U}
 <div class="arithmatex">\[
 q = CU
 \]</div>
-<p><strong>q</strong> и <strong>i</strong> - мгновенные значения заряда и силы тока соответственно.</p>
-<p><strong>q_m</strong> <strong>I_m</strong> - амплитудные (максимальные) значения заряда и силы тока соответственно.</p>
+<p><span class="arithmatex">\(q\)</span> и <span class="arithmatex">\(i\)</span> - мгновенные значения заряда и силы тока соответственно.</p>
+<p><span class="arithmatex">\(q_m\)</span> <span class="arithmatex">\(I_m\)</span> - амплитудные (максимальные) значения заряда и силы тока соответственно.</p>
 <div class="arithmatex">\[
 W = \frac{q^2}{2C} + \frac{Li^2}{2}
 \]</div>

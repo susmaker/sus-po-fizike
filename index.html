@@ -1193,7 +1193,7 @@ T = \frac{ 2 \pi m }{ |q| B }
 <p class="admonition-title">Магнитный поток в движущихся проводниках</p>
 <p><img alt="Магнитный поток в движущихся проводниках" src="img/magnetic-stream.png" /></p>
 <div class="arithmatex">\[
-\Phi = B S \cos{(90^{\circ} - \alpha)} = B S \sin{\alpha}
+\Phi = B S \cos{(90^{\circ} - \alpha)} = - B S \sin{\alpha}
 \]</div>
 <div class="arithmatex">\[
 S = l(NC - vt)
@@ -1819,10 +1819,27 @@ W = \frac{q^2}{2C} + \frac{Li^2}{2}
 <p><strong>Гармонические колебания</strong> - периодические изменения физической величины в зависимости от времени, происходящие по формуле синуса или косинуса. Такие колебания являются незатухающими.</p>
 <div class="admonition info">
 <p class="admonition-title">Дифференциальное уравнение электромагнитных колебаний</p>
-<p><span class="arithmatex">\((\frac{ q^2 }{ 2C } + \frac{ L i^2 }{ 2 })' = 0\)</span></p>
-<p><span class="arithmatex">\(i = q'\)</span></p>
-<p><span class="arithmatex">\(i' = q''\)</span></p>
-<p>Следовательно <span class="arithmatex">\(q'' = - \frac{ 1 }{ L C } q\)</span></p>
+<div class="arithmatex">\[
+(\frac{ q^2 }{ 2 C })' + (\frac{ L i^2 }{ 2 })' = 0
+\]</div>
+<div class="arithmatex">\[
+(\frac{ q^2 }{ 2 C }) = - (\frac{ L i^2 }{ 2 })'
+\]</div>
+<div class="arithmatex">\[
+(\frac{ L i^2 }{ 2 })' = - (\frac{ q^2 }{ 2 C })
+\]</div>
+<div class="arithmatex">\[
+\frac{L}{2} * 2 i i' = - \frac{ 1 }{ 2 C } * 2 q q'
+\]</div>
+<div class="arithmatex">\[
+L i i' = - \frac{ q q' }{C}
+\]</div>
+<div class="arithmatex">\[
+i = q' \Rightarrow L i' = - \frac{q}{C}
+\]</div>
+<div class="arithmatex">\[
+i' = q'' \Rightarrow  q'' = - \frac{ 1 }{ L C } q
+\]</div>
 </div>
 <p><strong>Уравнение гармонических колебаний</strong>:</p>
 <div class="arithmatex">\[
@@ -1889,16 +1906,13 @@ i = I_m \cos{ \omega t + \frac{\pi}{2} }
 e = -\phi '
 \]</div>
 <div class="arithmatex">\[
-e = \frac{ \Delta \phi }{ \Delta t }
+e = - B S (\cos{ \omega t })'
 \]</div>
 <div class="arithmatex">\[
-e = B S \sin{\alpha}
+e = B S \omega \sin{ \omega t }
 \]</div>
 <div class="arithmatex">\[
-\alpha = \omega t
-\]</div>
-<div class="arithmatex">\[
-e = B S \sin{ \omega t }
+e = \xi _m \sin{ \omega t }
 \]</div>
 <p><span class="arithmatex">\(e\)</span> - мгновенное значение ЭДС индукции.</p>
 </div>

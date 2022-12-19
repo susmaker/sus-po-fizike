@@ -314,7 +314,7 @@ $\Gamma = \frac{0.3м}{0.6м} = \frac{1}{2}$
     $$
 
     $$
-    F_Л = \frac{F_А}{N} = \frac{ I B l \sin{\alpha} }{ N } = \frac{ n S l q v B }{ n S l } = |q| v B \sin{\alpha}
+    F_Л = \frac{F_А}{N} = \frac{ I B l \sin{\alpha} }{ N } = \frac{ n S l q v B \sin{\alpha} }{ n S l } = |q| v B \sin{\alpha}
     $$
 
     | Обозначение | Описание                                                   |
@@ -1765,7 +1765,7 @@ $q$
 
 $\frac{ -\frac{ \Delta \phi }{ \Delta t } }{ R } = \frac{ q }{ \Delta t }$
 
-$ -\frac{ \Delta \phi }{ \Delta t R } = \frac{q}{\Delta t}$
+$-\frac{ \Delta \phi }{ \Delta t R } = \frac{q}{\Delta t}$
 
 $q = -\frac{ \Delta \phi \Delta t }{ \Delta t R } = \frac{ \Delta \phi }{ R }$
 

@@ -655,15 +655,15 @@ $m$
 
 !!! info ""
 
-    $T = \frac{t}{N} = 2\pi\sqrt{\frac{m}{k}}$
+    $T = \frac{t}{N} = 2 \pi \sqrt{ \frac{m}{k} }$
 
-$\frac{t}{N} = 2\pi\sqrt{\frac{m}{k}}$
+$\frac{t}{N} = 2 \pi \sqrt{ \frac{m}{k} }$
 
-$\frac{t^2}{N^2} = 4\pi^2\frac{m}{k}$
+$\frac{ t^2 }{ N^2 } = 4 \pi ^2 \frac{m}{k}$
 
-$m = \frac{t^2k}{4N^2\pi^2}$
+$m = \frac{ t^2 k }{ 4 N^2 \pi ^2 }$
 
-$m = \frac{16с^2 * 250\frac{Н}{м}}{20^2 * 4 * 3.14^2} = 4.06кг$
+$m = \frac{ (16с)^2 * 250 \frac{Н}{м} }{ 20^2 * 4 * 3.14^2 } = 4.06кг$
 
 Ответ: $4.06кг$.
 
@@ -759,17 +759,17 @@ $g$
 
 !!! info ""
 
-    $T = \frac{t}{N} = 2\pi\sqrt{\frac{l}{g}}$
+    $T = \frac{t}{N} = 2 \pi \sqrt{ \frac{l}{g} }$
 
-$\frac{t}{N} = 2\pi\sqrt{\frac{l}{g}}$
+$\frac{t}{N} = 2 \pi \sqrt{ \frac{l}{g} }$
 
-$\frac{t^2}{N^2} = 4\pi^2\frac{l}{g}$
+$\frac{ t^2 }{ N^2 } = 4 \pi ^2 \frac{l}{g}$
 
-$\frac{l}{g} = \frac{t^2}{4N^2\pi^2}$
+$\frac{l}{g} = \frac{ t^2 }{ 4 N^2 \pi ^2}$
 
-$g = \frac{4lN^2\pi^2}{t^2}$
+$g = \frac{ 4 l N^2 \pi ^2}{ t^2 }$
 
-$g = \frac{0.8м * 100^2 * 4 * 3.14^2}{180с^2} = 9.74\frac{м}{с^2}$
+$g = \frac{ 0.8м * 100^2 * 4 * 3.14^2 }{ (180с)^2 } = 9.74\frac{м}{с^2}$
 
 Ответ: $9.74\frac{м}{с^2}$.
 
@@ -850,15 +850,15 @@ $C$
 
 !!! info ""
 
-    $\omega = 2\pi\nu = \frac{1}{\sqrt{LC}}$
+    $\omega = 2 \pi \nu = \frac{ 1 }{ \sqrt{ L C } }$
 
-$2\pi\nu = \frac{1}{\sqrt{LC}}$
+$2 \pi \nu = \frac{ 1 }{ \sqrt{ L C } }$
 
-$\sqrt{LC} = \frac{1}{2\pi\nu}$
+$\sqrt{ L C } = \frac{ 1 }{ 2\pi \nu }$
 
-$LC = \frac{1}{4\pi^2\nu^2}$
+$LC = \frac{ 1 }{ 4 \pi^2 \nu^2}$
 
-$C = \frac{1}{4\pi^2\nu^2L}$
+$C = \frac{1}{ 4 \pi^2 \nu^2 L}$
 
 $C = \frac{1}{4 * 3.14^2 * (10^7Гц)^2 * 5.1 * 10^{-6}Гн} = 4.97 * 10^{-11}Ф$
 
@@ -969,11 +969,7 @@ m \vec{a} = \vec{F_{упр}} + \vec{F_m} + \vec{N}
 $$
 
 $$
-m a_x = -\vec{F_{упр}}
-$$
-
-$$
-F_{упр} = -k x
+m a_x = - F_{упр}
 $$
 
 $$

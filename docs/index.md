@@ -1749,7 +1749,7 @@ $N = \frac{10В}{|\frac{(0.3Тл - 0.2Тл) * 5 * 10^{-3}м^2}{4 * 10^{-3}с}|} 
 
 $R = 0.03Ом$
 
-$\Delta \phi = 12мВб = 12 * 10^{-3}Вб$
+$\Delta \phi = -12мВб = -12 * 10^{-3}Вб$
 
 Найти:
 
@@ -1759,17 +1759,17 @@ $q$
 
 !!! info ""
 
-    $\xi = \frac{\Delta \phi}{\Delta t}$
+    $\xi = - \frac{\Delta \phi}{\Delta t}$
 
     $I = \frac{\xi}{R} = \frac{q}{\Delta t}$
 
-$\frac{\frac{\Delta \phi}{\Delta t}}{R} = \frac{q}{\Delta t}$
+$\frac{ -\frac{ \Delta \phi }{ \Delta t } }{ R } = \frac{ q }{ \Delta t }$
 
-$\frac{\Delta \phi}{\Delta tR} = \frac{q}{\Delta t}$
+$ -\frac{ \Delta \phi }{ \Delta t R } = \frac{q}{\Delta t}$
 
-$q = \frac{\Delta \phi \Delta t}{\Delta tR} = \frac{\Delta \phi}{R}$
+$q = -\frac{ \Delta \phi \Delta t }{ \Delta t R } = \frac{ \Delta \phi }{ R }$
 
-$q = \frac{12 * 10^{-3}Вб}{0.03Ом} = 0.4Кл$
+$q = -\frac{ -12 * 10^{-3}Вб }{ 0.03Ом } = 0.4Кл$
 
 Ответ: $0.4Кл$.
 

@@ -773,15 +773,14 @@ B = \frac{F_m}{I \Delta l}
 <p>Решение:</p>
 <p><img alt="Рисунок" src="img/z2.png" title="Рисунок" /></p>
 <div class="admonition info">
-<p><span class="arithmatex">\(n_1sin{\alpha} = n_2sin{\beta}\)</span></p>
-<p><span class="arithmatex">\(n\)</span> - показатель преломления</p>
+<p><span class="arithmatex">\(\frac{ \sin{\alpha} }{ \sin{\beta} } = \frac{ n_{воды} }{ n_{воздуха} }\)</span></p>
 <p><span class="arithmatex">\(n_{воздуха} = 1\)</span></p>
 <p><span class="arithmatex">\(n_{воды} = 1.33\)</span></p>
 </div>
 <p><span class="arithmatex">\(\frac{x}{h} = \tan{\beta}\)</span></p>
 <p><span class="arithmatex">\(x = \tan{\beta}h\)</span></p>
-<p><span class="arithmatex">\(\beta = \arcsin{\frac{n_{воздуха}\sin{\alpha}}{n_{воды}}}\)</span></p>
-<p><span class="arithmatex">\(\beta = \arcsin{\frac{1\sin{45^{\circ}}}{1.33}} = 0.56рад = 32.12^{\circ}\)</span></p>
+<p><span class="arithmatex">\(\beta = \arcsin{\frac{ n_{воздуха} \sin{\alpha} }{ n_{воды} }}\)</span></p>
+<p><span class="arithmatex">\(\beta = \arcsin{\frac{ 1 \sin{45^{\circ}} }{ 1.33 }} = 0.56рад = 32.12^{\circ}\)</span></p>
 <p><span class="arithmatex">\(x = \tan{32.12^{\circ}} * 1.25м = 0.78м\)</span></p>
 <p>Ответ: <span class="arithmatex">\(0.78м\)</span>.</p>
 <details class="info">
@@ -2212,7 +2211,7 @@ U = \sqrt{\overline{u}^2} = \frac{U_m}{\sqrt{2}}
 <div class="admonition info">
 <p class="admonition-title">Относительный показатель преломления</p>
 <div class="arithmatex">\[
-n^{\pm 1} = \frac{sin{\alpha}}{sin{\beta}} = \frac{v_1}{v_2}
+n^{\pm 1} = \frac{sin{\alpha}}{sin{\beta}} = \frac{v_1}{v_2} = \frac{n_2}{n_1}
 \]</div>
 <table>
 <thead>
@@ -2234,6 +2233,14 @@ n^{\pm 1} = \frac{sin{\alpha}}{sin{\beta}} = \frac{v_1}{v_2}
 <td><span class="arithmatex">\(\beta\)</span></td>
 <td>угол преломления</td>
 </tr>
+<tr>
+<td><span class="arithmatex">\(n_1\)</span></td>
+<td>абсолютный показатель 1-ой среды</td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(n_2\)</span></td>
+<td>абсолютный показатель 2-ой среды</td>
+</tr>
 </tbody>
 </table>
 <table>
@@ -2246,11 +2253,11 @@ n^{\pm 1} = \frac{sin{\alpha}}{sin{\beta}} = \frac{v_1}{v_2}
 <tbody>
 <tr>
 <td><span class="arithmatex">\(n^1\)</span></td>
-<td><span class="arithmatex">\(v_1 &lt; v_2\)</span> (1-ая среда оптически плотнее 2-ой)</td>
+<td><span class="arithmatex">\(v_1 &gt; v_2\)</span> (1-ая среда оптически менее плотная 2-ой)</td>
 </tr>
 <tr>
 <td><span class="arithmatex">\(n^{-1}\)</span></td>
-<td><span class="arithmatex">\(v_1 &gt; v_2\)</span> (1-ая среда оптически менее плотная, чем 2-ая)</td>
+<td><span class="arithmatex">\(v_1 &lt; v_2\)</span> (1-ая среда оптически более плотная, чем 2-ая)</td>
 </tr>
 <tr>
 <td><span class="arithmatex">\(v_1\)</span> и <span class="arithmatex">\(v_2\)</span></td>
